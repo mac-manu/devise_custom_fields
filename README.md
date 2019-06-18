@@ -1,26 +1,23 @@
-<<<<<<< HEAD
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Devise Custom Fields
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.6.3
 
 * System dependencies
 
 * Configuration
 
-* Database creation
+* Database creation => db:create
 
-* Database initialization
+* Database initialization db:seed
 
-* How to run the test suite
+* How to run the test suite => rails s
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* Deployment instructions => just development for now
 
 * ...
 =======
@@ -28,14 +25,8 @@ Things you may want to cover:
 
 You can use the [editor on GitHub](https://github.com/mac-manu/Devise_custom_fields/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
 
 # Header 1
 ## Header 2
@@ -51,14 +42,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mac-manu/Devise_custom_fields/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
->>>>>>> b0161653101d645fc48512b599be869e92872cb8
