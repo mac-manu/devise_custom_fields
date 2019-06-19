@@ -81,3 +81,10 @@ bower.json
 node_modules/
 
 >>>>>>> b0161653101d645fc48512b599be869e92872cb8
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
