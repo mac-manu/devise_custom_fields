@@ -21,6 +21,11 @@
     </div>
 
     <div class="mb-6">
+      <%= f.label :estado, class:"label" %>
+      <%= f.text_field :estado, autocomplete: "estado"%>
+    </div>
+
+    <div class="mb-6">
       <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
         <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
       <% end %>
@@ -63,5 +68,3 @@
 <% end %>
 
 <%= render 'devise/shared/form_wrap' %>
-
-
