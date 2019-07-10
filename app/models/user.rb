@@ -6,8 +6,13 @@ class User < ApplicationRecord
 
 
 
-before_save :estado_defecto
+  before_save :estado_defecto
+
   def estado_defecto
     self.estado = "desactivado"
+  end
+
+  def estado_activado
+    self.estado = "Activado"
   end
 end
